@@ -12,6 +12,9 @@
 		D21394B62AF16B30005A83A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394B52AF16B30005A83A7 /* ViewController.swift */; };
 		D21394BB2AF16B31005A83A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21394BA2AF16B31005A83A7 /* Assets.xcassets */; };
 		D21394BE2AF16B31005A83A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21394BC2AF16B31005A83A7 /* LaunchScreen.storyboard */; };
+		D21394C62AF2C781005A83A7 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394C52AF2C781005A83A7 /* HourlyForecastCollectionViewCell.swift */; };
+		D21394C82AF2CAF8005A83A7 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394C72AF2CAF8005A83A7 /* Color+Extensions.swift */; };
+		D21394CA2AF2DD69005A83A7 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394C92AF2DD69005A83A7 /* DailyForecastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D21394BA2AF16B31005A83A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D21394BD2AF16B31005A83A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D21394BF2AF16B31005A83A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21394C52AF2C781005A83A7 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		D21394C72AF2CAF8005A83A7 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		D21394C92AF2DD69005A83A7 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				D21394B12AF16B30005A83A7 /* AppDelegate.swift */,
 				D21394B32AF16B30005A83A7 /* SceneDelegate.swift */,
 				D21394B52AF16B30005A83A7 /* ViewController.swift */,
+				D21394C52AF2C781005A83A7 /* HourlyForecastCollectionViewCell.swift */,
+				D21394C72AF2CAF8005A83A7 /* Color+Extensions.swift */,
+				D21394C92AF2DD69005A83A7 /* DailyForecastTableViewCell.swift */,
 				D21394BA2AF16B31005A83A7 /* Assets.xcassets */,
 				D21394BC2AF16B31005A83A7 /* LaunchScreen.storyboard */,
 				D21394BF2AF16B31005A83A7 /* Info.plist */,
@@ -134,8 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21394C82AF2CAF8005A83A7 /* Color+Extensions.swift in Sources */,
 				D21394B62AF16B30005A83A7 /* ViewController.swift in Sources */,
+				D21394CA2AF2DD69005A83A7 /* DailyForecastTableViewCell.swift in Sources */,
 				D21394B22AF16B30005A83A7 /* AppDelegate.swift in Sources */,
+				D21394C62AF2C781005A83A7 /* HourlyForecastCollectionViewCell.swift in Sources */,
 				D21394B42AF16B30005A83A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
