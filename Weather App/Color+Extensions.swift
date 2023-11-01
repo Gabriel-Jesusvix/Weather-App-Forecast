@@ -10,6 +10,6 @@ import UIKit
 
 extension UIColor {
     static let contrastColor = UIColor(named: "contrastColor")
-    static let primaryColor = UIColor(named: "primaryColor")
-    static let gray = UIColor(named: "gray")
+    static let color = UIColor(named: "color")
+    static let colorGray = UIColor(named: "colorGray")
 }

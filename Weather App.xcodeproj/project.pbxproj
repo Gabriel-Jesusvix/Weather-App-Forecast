@@ -16,6 +16,8 @@
 		D21394C82AF2CAF8005A83A7 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394C72AF2CAF8005A83A7 /* Color+Extensions.swift */; };
 		D21394CA2AF2DD69005A83A7 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394C92AF2DD69005A83A7 /* DailyForecastTableViewCell.swift */; };
 		D21394CC2AF2E042005A83A7 /* UiView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394CB2AF2E042005A83A7 /* UiView+Extensions.swift */; };
+		D21394CE2AF2E458005A83A7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394CD2AF2E458005A83A7 /* Service.swift */; };
+		D21394D02AF2ECA7005A83A7 /* Core+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21394CF2AF2ECA7005A83A7 /* Core+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D21394C72AF2CAF8005A83A7 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D21394C92AF2DD69005A83A7 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		D21394CB2AF2E042005A83A7 /* UiView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Extensions.swift"; sourceTree = "<group>"; };
+		D21394CD2AF2E458005A83A7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D21394CF2AF2ECA7005A83A7 /* Core+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				D21394C72AF2CAF8005A83A7 /* Color+Extensions.swift */,
 				D21394C92AF2DD69005A83A7 /* DailyForecastTableViewCell.swift */,
 				D21394CB2AF2E042005A83A7 /* UiView+Extensions.swift */,
+				D21394CD2AF2E458005A83A7 /* Service.swift */,
+				D21394CF2AF2ECA7005A83A7 /* Core+Extensions.swift */,
 				D21394BA2AF16B31005A83A7 /* Assets.xcassets */,
 				D21394BC2AF16B31005A83A7 /* LaunchScreen.storyboard */,
 				D21394BF2AF16B31005A83A7 /* Info.plist */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21394CC2AF2E042005A83A7 /* UiView+Extensions.swift in Sources */,
+				D21394CE2AF2E458005A83A7 /* Service.swift in Sources */,
 				D21394C82AF2CAF8005A83A7 /* Color+Extensions.swift in Sources */,
 				D21394B62AF16B30005A83A7 /* ViewController.swift in Sources */,
+				D21394D02AF2ECA7005A83A7 /* Core+Extensions.swift in Sources */,
 				D21394CA2AF2DD69005A83A7 /* DailyForecastTableViewCell.swift in Sources */,
 				D21394B22AF16B30005A83A7 /* AppDelegate.swift in Sources */,
 				D21394C62AF2C781005A83A7 /* HourlyForecastCollectionViewCell.swift in Sources */,

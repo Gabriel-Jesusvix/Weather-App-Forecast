@@ -14,7 +14,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     private lazy var weekDayLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "TER"
         label.textColor = UIColor.contrastColor
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
         return label
@@ -23,7 +22,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     private lazy var minTemperatureLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "min 25°C"
         label.textColor = UIColor.contrastColor
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
         return label
@@ -32,7 +30,6 @@ class DailyForecastTableViewCell: UITableViewCell {
     private lazy var maxTemperatureLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "max 25°C"
         label.textColor = UIColor.contrastColor
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
         return label
@@ -42,16 +39,21 @@ class DailyForecastTableViewCell: UITableViewCell {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
-        imageView.image = UIImage(named: "cloud")
         return imageView
     }()
     
     private lazy var stackView: UIStackView = {
-        let stackView = UIStackView(arrangedSubviews: [weekDayLabel, iconImageView, minTemperatureLabel, maxTemperatureLabel])
+        let stackView = UIStackView(arrangedSubviews: [weekDayLabel,
+                                                       iconImageView,
+                                                       minTemperatureLabel,
+                                                       maxTemperatureLabel])
         stackView.axis = .horizontal
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.isLayoutMarginsRelativeArrangement = true
-        stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16)
+        stackView.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 16,
+                                                                     leading: 16,
+                                                                     bottom: 16,
+                                                                     trailing: 16)
         stackView.spacing = 15
         return stackView
     }()
@@ -63,6 +65,13 @@ class DailyForecastTableViewCell: UITableViewCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func loadData(weekDay: String?, min: String?, max: String?, icon: UIImage?) {
+        weekDayLabel.text = weekDay
+        minTemperatureLabel.text = "min \(min ?? "")"
+        maxTemperatureLabel.text = "max \(max ?? "")"
+        iconImageView.image = icon
     }
     
     private func setupView() {
